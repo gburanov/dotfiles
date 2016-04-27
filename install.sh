@@ -1,4 +1,6 @@
 #!/bin/bash
 set -x #echo on
 
-ln -s gburanov.zsh-theme ~/.oh-my-zsh/themes/
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+ln -s $DIR/gburanov.zsh-theme $HOME/.oh-my-zsh/themes/
