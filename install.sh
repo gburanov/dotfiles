@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x #echo on
 
+shopt -s dotglob;
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-ln -s $DIR/gburanov.zsh-theme $HOME/.oh-my-zsh/themes/
+cp -R $DIR/.oh-my-zsh/* $HOME/.oh-my-zsh/
+cp -R $DIR/.vim/* $HOME/.vim/
