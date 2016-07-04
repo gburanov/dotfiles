@@ -1,0 +1,6 @@
+linter@1.11.14
+linter-rubocop@0.4.7
+linter-ruby@1.2.2
+rails-transporter@1.6.5
+
+
