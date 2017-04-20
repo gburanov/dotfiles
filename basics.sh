@@ -10,5 +10,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s /bin/zsh
 
 # Install rvm
-brew install gpg
+brew install gnupg gnupg2
 curl -sSL https://get.rvm.io | bash -s stable --ruby
