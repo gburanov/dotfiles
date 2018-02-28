@@ -7,3 +7,5 @@ ls ~/.atom/packages > ./atom-packages.txt
 
 ./basics.sh
 ./install.sh
+
+* Set the ./zshrc ZSH_THEME="gburanov"
