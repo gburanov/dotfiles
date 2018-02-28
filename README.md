@@ -9,3 +9,9 @@ ls ~/.atom/packages > ./atom-packages.txt
 ./install.sh
 
 * Set the ./zshrc ZSH_THEME="gburanov"
+
+## List of additional software
+* Textmate
+* VLC
+* Telegram
+* Spofity

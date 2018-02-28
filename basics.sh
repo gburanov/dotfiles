@@ -13,8 +13,9 @@ chsh -s /bin/zsh
 brew install gnupg gnupg2
 curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-# Install fasd
+# Install fasd and z
 brew install fasd
+brew install z
 
 # Install go
 brew install go
