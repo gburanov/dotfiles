@@ -1,0 +1,6 @@
+# Update validity from time to time
+```
+ls ~/.atom/packages > ./packages.txt
+```
+
+# Do the install
