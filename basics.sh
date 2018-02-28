@@ -12,3 +12,6 @@ chsh -s /bin/zsh
 # Install rvm
 brew install gnupg gnupg2
 curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+# Install go
+brew install go

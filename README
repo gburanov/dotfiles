@@ -1,6 +1,9 @@
 # Update validity from time to time
 ```
-ls ~/.atom/packages > ./packages.txt
+ls ~/.atom/packages > ./atom-packages.txt
 ```
 
 # Do the install
+
+./basics.sh
+./install.sh
