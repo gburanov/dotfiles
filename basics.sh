@@ -16,6 +16,10 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Install fasd and z
 brew install fasd
 brew install z
+brew install npm
 
 # Install go
 brew install go
+
+# fkill
+npm install --global fkill-cli
