@@ -18,10 +18,14 @@ brew install --cask font-jetbrains-mono
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 omz theme set agnoster
 omz plugin load z
+omz plugin enable z
 omz plugin load ssh-agent
+omz plugin enable ssh-agent
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
 omz plugin load you-should-use
+omz plugin enable you-should-use
 omz pulgin load git
+omz plugin enable git
 
 brew install zsh-syntax-highlighting
 echo "source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
