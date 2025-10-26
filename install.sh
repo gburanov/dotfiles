@@ -14,3 +14,16 @@ brew install --cask vlc
 #Fonts
 brew install --cask font-jetbrains-mono
 
+#Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+omz theme set agnoster
+omz plugin load z
+omz plugin load ssh-agent
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
+omz plugin load you-should-use
+omz pulgin load git
+
+brew install zsh-syntax-highlighting
+echo "source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
+brew install zsh-autosuggestions
+echo "source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> "$HOME/.zshrc"
