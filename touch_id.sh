@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-PAM_FILE="/etc/pam.d/sudo"
+PAM_FILE="/etc/pam.d/sudo_local"
 LINE="auth       sufficient     pam_tid.so"
 
 # Ensure the file exists
 if [ ! -f "$PAM_FILE" ]; then
-    echo "Error: $PAM_FILE not found."
-    exit 1
+    echo "$PAM_FILE not found."
+    touch $PAM_FILE
 fi
 
 # Add the line only if it’s not already there
