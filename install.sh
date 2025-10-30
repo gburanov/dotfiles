@@ -10,6 +10,7 @@ brew install --cask spotify
 brew install --cask telegram
 brew install --cask textmate
 brew install --cask vlc
+brew install --cask qbittorrent
 
 #Fonts
 brew install --cask font-jetbrains-mono
