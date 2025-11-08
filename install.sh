@@ -11,6 +11,7 @@ brew install --cask telegram
 brew install --cask textmate
 brew install --cask vlc
 brew install --cask qbittorrent
+brew install --cask monitorcontrol
 
 #Fonts
 brew install --cask font-jetbrains-mono
